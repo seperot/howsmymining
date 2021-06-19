@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HowsMyMining</string>
+    <string name="trtl_address">TRTL Address</string>
+    <string name="find_my_miner">FIND MY MINER</string>
+    <string name="workers">Workers: %1$s</string>
+    <string name="hashreate">Hashrate: %1$s</string>
+    <string name="last_block">Last Block Found: %1$s</string>
+    <string name="no_workers">no workers</string>
+    <string name="no_hashrate">no hashrate</string>
+    <string name="no_blocks">no blocks found</string>
 </resources>
