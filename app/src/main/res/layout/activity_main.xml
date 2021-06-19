@@ -28,8 +28,10 @@
         app:layout_constraintTop_toBottomOf="@+id/et_wallet_id" />
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="652dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
+            android:layout_marginHorizontal="100dp"
             tools:text="Workers: 1" />
 
         <TextView
@@ -49,6 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
+            android:layout_marginHorizontal="100dp"
             tools:text="Hashrate: 26000" />
 
         <TextView
@@ -57,6 +61,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
+            android:layout_marginHorizontal="100dp"
+            android:autoLink="web"
+            android:linksClickable="true"
             tools:text="Last Block: Never" />
 
     </LinearLayout>
