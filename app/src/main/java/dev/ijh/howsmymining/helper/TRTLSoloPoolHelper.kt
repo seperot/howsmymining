@@ -2,7 +2,7 @@ package dev.ijh.howsmymining.helper
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
-import dev.ijh.howsmymining.networking.TRTLSoloPool
+import dev.ijh.howsmymining.network.TRTLSoloPool
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -8,4 +8,7 @@
     <string name="no_workers">no workers</string>
     <string name="no_hashrate">no hashrate</string>
     <string name="no_blocks">no blocks found</string>
+    <string name="hashrate">Hashrate</string>
+    <string name="worker">Workers</string>
+    <string name="pool">Pool</string>
 </resources>
